@@ -1,1 +1,1 @@
-from admin.partner_api import router  # noqa: F401
+from Admin.Partner_api import router  # noqa: F401
