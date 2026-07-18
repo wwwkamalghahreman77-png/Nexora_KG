@@ -3,9 +3,9 @@ from aiogram.fsm.context import FSMContext
 from aiogram.fsm.state import State, StatesGroup
 from aiogram.types import CallbackQuery, Message
 
-from database.db import get_session
-from core.fuzzy_search import search_stations
-from core.route_engine import find_routes
+from Database.Db import get_session
+from Core.fuzzy_search import search_stations
+from Core.route_engine import find_routes
 
 router = Router()
 
