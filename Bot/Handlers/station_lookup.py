@@ -9,8 +9,8 @@ from aiogram.fsm.state import State, StatesGroup
 from aiogram.filters import Command
 from aiogram.types import CallbackQuery, Message
 
-from database.db import get_session
-from core.fuzzy_search import search_stations, search_cargo
+from Database.Db import get_session
+from Core.fuzzy_search import search_stations, search_cargo
 
 router = Router()
 
