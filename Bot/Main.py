@@ -14,8 +14,8 @@ from aiogram.client.default import DefaultBotProperties
 from aiogram.enums import ParseMode
 from aiogram.fsm.storage.memory import MemoryStorage
 
-from database.db import init_db
-from bot.handlers import start, calculate, partner, admin, station_lookup, route_planner
+from Database.Db import init_db
+from Bot.Handlers import Start as start, calculate, partner, admin, station_lookup, route_planner
 
 logging.basicConfig(level=logging.INFO)
 
