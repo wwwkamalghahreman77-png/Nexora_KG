@@ -12,7 +12,7 @@ import heapq
 from dataclasses import dataclass
 from typing import List, Optional, Dict, Tuple
 from sqlalchemy.orm import Session
-from database.models import Station, RailConnection
+from Database.models import Station, RailConnection
 
 
 @dataclass
