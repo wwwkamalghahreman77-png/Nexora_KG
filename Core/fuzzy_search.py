@@ -11,7 +11,7 @@ from dataclasses import dataclass
 from difflib import SequenceMatcher
 from typing import List, Optional
 from sqlalchemy.orm import Session
-from database.models import Station, CargoType
+from Database.models import Station, CargoType
 
 
 def _similarity(a: str, b: str) -> float:
