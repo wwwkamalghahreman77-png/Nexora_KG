@@ -16,7 +16,7 @@ from dataclasses import dataclass
 from typing import Optional
 from sqlalchemy import and_
 from sqlalchemy.orm import Session
-from database.models import TariffDataPoint
+from Database.models import TariffDataPoint
 
 
 @dataclass
