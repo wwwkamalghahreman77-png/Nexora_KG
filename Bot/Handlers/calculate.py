@@ -3,10 +3,10 @@ from aiogram.fsm.context import FSMContext
 from aiogram.fsm.state import State, StatesGroup
 from aiogram.types import CallbackQuery, Message, InlineKeyboardMarkup, InlineKeyboardButton
 
-from database.db import get_session
-from database.models import Lead
-from core.tariff_engine import estimate_tariff
-from core.lead_matching import find_matching_partners, consume_lead_credit
+from Database.Db import get_session
+from Database.models import Lead
+from Core.Tariff_engine import estimate_tariff
+from Core.lead_matching import find_matching_partners, consume_lead_credit
 
 router = Router()
 
