@@ -17,8 +17,8 @@
 """
 import argparse
 import csv
-from database.db import get_session, init_db
-from database.models import Station, CargoType, RailConnection
+from Database.Db import get_session, init_db
+from Database.models import Station, CargoType, RailConnection
 
 
 def _to_bool(val: str) -> bool:
