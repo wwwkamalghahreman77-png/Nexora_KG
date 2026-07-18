@@ -37,7 +37,7 @@ jobs:
         env:
           BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
           ADMIN_IDS: ${{ secrets.ADMIN_IDS }}
-        run: timeout 21000 python -m bot.main || true
+        run: timeout 21000 python -m Bot.Main || true
 
       - name: ذخیره‌ی تغییرات دیتابیس (پارتنرها/لیدها/داده‌های جدید)
         if: always()
