@@ -3,8 +3,8 @@ from aiogram import Router
 from aiogram.filters import Command
 from aiogram.types import Message
 
-from database.db import get_session
-from database.models import Partner, TariffDataPoint, Lead, Station
+from Database.Db import get_session
+from Database.models import Partner, TariffDataPoint, Lead, Station
 
 router = Router()
 
