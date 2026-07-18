@@ -5,7 +5,7 @@
 """
 from typing import List
 from sqlalchemy.orm import Session
-from database.models import Partner, TariffDataPoint
+from Database.models import Partner, TariffDataPoint
 
 TIER_PRIORITY = {"enterprise": 0, "pro": 1, "free": 2}
 
