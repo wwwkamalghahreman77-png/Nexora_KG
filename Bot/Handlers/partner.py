@@ -4,8 +4,8 @@ from aiogram.fsm.state import State, StatesGroup
 from aiogram.filters import Command
 from aiogram.types import CallbackQuery, Message
 
-from database.db import get_session
-from database.models import Partner, TariffDataPoint
+from Database.Db import get_session
+from Database.models import Partner, TariffDataPoint
 
 router = Router()
 
